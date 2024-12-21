@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+.header{
+    background-color: WHITE;
+    display: flex;
+    height: 10vh;
+    margin-bottom: 18px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.page{
+
+    display: flex;
+    min-height: 83vh;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-line{
+    margin-right: 5%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+
+    
+}
+.head{
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+
+}
+.nav{
+    text-align: right;
+    display: flex;
+    
+}
+.nav-item{
+
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 130%;
+
+    margin-left: 9vh;
+
+}
+.img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+.footer{
+    background-color: rgb(5, 5, 5);
+    padding: 20px;
+    margin-top: auto;
+}
+.foottxt1{
+    color: #ffffff;
+    text-align: center;
+}
+.name{
+    font-size: 35px;
+    margin-left: 1%;
+    text-decoration: underline;
+    
+}
+.text{
+    padding-top: 10px;
+    font-size: medium;
+    line-height: 1.5;
+    text-indent: 20xp;
+    
+}
+.inf{
+    padding-top: 5%;
+    margin-left: 8%;
+}
+.img1{
+    background-image: url("images/utro+.jpg");
+  width: 530px;
+  height: 383px;  
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.img2{
+    background-image: url("images/voz_sena+.jpg");
+  width: 530px;
+  height: 383px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.img3{
+    background-image: url("images/kupanie_diani+.jpg");
+  width: 600px;
+  height: 1400px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.img4{
+    background-image: url("images/vospominanie-o-mortfontene+.jpg");
+  width: 700px;
+  height: 500px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.img5{
+    background-image: url("images/vid-na-naberejnuu-koro+.jpg");
+  width: 650px;
+  height: 463px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.img6{
+    background-image: url("images/poryv-vetra-zhan-batist-kamil-koro+.jpg");
+  width: 700px;
+  height: 463px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.img7{
+    background-image: url("images/cerkov-v-marissele-koro+.jpg");
+  width: 580px;
+  height: 780px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.img8{
+    background-image: url("images/most_narnia+.jpg");
+  width: 700px;
+  height: 481px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.img1:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}
+.img2:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}
+.img3:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}
+.img4:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}.img5:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}
+.img6:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}.img7:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}
+.img8:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    transition: background-color 0.5s;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.885);
+    transform: scale(1.05);
+    transition:  0.5s;
+}
+.up{
+    
+
+    margin-left: auto;
+    margin-right: 2%;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid grey;
+    
+    width: 2%;
+    height: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    border-radius: 20px;
+    background-color: rgb(43, 43, 43); 
+}
+.footer{
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    height: 8vh;
+}
+
+.foottxt1{
+    color: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    text-align:left;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 130%;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.dropdown {
+    margin-left: 9vh;
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    margin-right: auto;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+.p{
+    text-indent: 30px;
+}
