@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Заказ товара</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <label for="product-id">
+        Название (ID товара):
+        <input
+        type="number"
+        id="product-id"
+        placeholder="ID: 123456"
+        required
+        />
+      </label>
+      <label for="name">
+        Имя:
+        <input type="text" id="name" placeholder="Введите ваше имя" />
+      </label>
+      <label for="email">
+        E-mail:
+        <input
+          type="email"
+          id="email"
+          placeholder="Введите адрес электронной почты"
+          required
+        />
+      </label>
+      <label for="color">
+        Цвет:
+        <input type="color" id="color" />
+      </label>
+      <label for="quantity">
+        Количество:
+        <div class="quantity">
+          <input type="number" min="1" max="100" value="1" />
+        </div>
+      </label>
+      <label for="datetime">
+        Дата/время:
+        <input type="datetime-local" id="date-time" name="date-time" class="data-time" required />
+      </label>
+      <fieldset class="delivery-method">
+        <legend>Cпособ доставки:</legend>
+        <label class="center">
+          <input
+            type="radio"
+            id="self-pickup"
+            name="delivery-method"
+            value="self-pickup"
+            required
+          />
+       Самовывоз
+        </label>
+        <label class="center">
+          <input
+            type="radio"
+            id="courier"
+            name="delivery-method"
+            value="courier"
+            required
+          />
+          Курьером
+        </label>
+      </fieldset>
+      <label for="pickup-location">
+        Ближайший пункт самовывоза:
+        <select id="pickup-location" required>
+          <option value="">Выберите пункт самовывоза</option>
+          <option value="location1">Пункт 1</option>
+          <option value="location2">Пункт 2</option>
+          <option value="location3">Пункт 3</option>
+          <option value="location4">Пункт 4</option>
+        </select>
+      </label>
+      <fieldset class="packaging">
+        <legend>Вид упаковки:</legend>
+        <label>
+          <input
+            type="radio"
+            id="packaging1"
+            name="packaging"
+            value="option1"
+            required
+          />
+          <img src="img/500x500.13f5cc0940a24374.jpg" alt="Упаковка 1" />
+        </label>
+        <label>
+          <input
+            type="radio"
+            id="packaging2"
+            name="packaging"
+            value="option2"
+            required
+          />
+          <img src="img/images.jpeg" alt="Упаковка 2" />
+        </label>
+        <label>
+          <input
+            type="radio"
+            id="packaging3"
+            name="packaging"
+            value="option3"
+            required
+          />
+          <img src="img/unnamed.jpg" alt="Упаковка 3" />
+        </label>
+      </fieldset>
+      <button type="submit" class="submit-button">Заказать</button>
+    </form>
+  </body>
+</html>

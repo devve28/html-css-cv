@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: grid;
+  gap: 5px;
+  text-align: left;
+  width: 100%;
+}
+input[type="color"]{
+  width: 30px;
+  height: 30px;
+}
+input[type="text"],
+input[type="email"],
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.color-picker {
+  display: flex;
+  gap: 10px;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.quantity {
+  display: flex;
+  gap: 5px;
+}
+
+.delivery-method {
+  display: grid;
+  gap: 5px;
+  width: 90%;
+}
+
+.packaging {
+  display: grid;
+  gap: 5px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  width: 100%;
+}
+.delivery-method, 
+.packaging {
+  display: flex;
+  align-items: center;
+  
+}
+ img{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Chrome, Safari, Edge, Opera */
+}
+
+.center{
+  text-align: center;
+}
+.data-time{
+  width: 40%;
+}
